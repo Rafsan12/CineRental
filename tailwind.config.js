@@ -3,7 +3,15 @@ export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
 
   theme: {
-    extend: {},
+    extend: {
+      container: {
+        center: true,
+        padding: "1.25rem",
+      },
+      color: {
+        primary: "#00D991",
+      },
+    },
   },
   plugins: [],
 };
