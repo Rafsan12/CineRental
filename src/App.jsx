@@ -1,5 +1,4 @@
 import { useState } from "react";
-import "./App.css";
 
 import { MovieContext, ThemeContext } from "./Context";
 import Page from "./Page";
